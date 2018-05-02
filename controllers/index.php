@@ -15,7 +15,7 @@ class index extends Controller {
         $data['title'] = 'index'; 
         $data['msg'] = 'Welcome home';
 
-        $this->load->view('index',$data); 
+        $this->load->view('index',compact('data')); 
     
 
     }
