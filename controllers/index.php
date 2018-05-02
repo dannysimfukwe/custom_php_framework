@@ -12,9 +12,10 @@ class index extends Controller {
     
     public function index() { 
 	       
-        $data['title'] = 'Leads Ge App Login'; 
+        $data['title'] = 'index'; 
+        $data['msg'] = 'Welcome home';
 
-        $this->load->view('pages/login',$data); 
+        $this->load->view('index',$data); 
     
 
     }
