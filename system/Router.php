@@ -31,7 +31,7 @@ class Router {
         if (isset($_GET['uri'])){
            $this->_path = $_GET['uri'];
         } else {
-            $this->_path = $this->_routes['GET']['default_controller'];
+            $this->_path = $this->_routes['GET']['index'];
         }
         
         if(substr($this->_path,-1) == "/"){
