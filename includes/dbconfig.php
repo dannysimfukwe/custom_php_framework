@@ -6,8 +6,8 @@ class DefaultDB {
     public $driver = 'mysql';
     public $dbhost = 'localhost';
     public $dbuser = 'root';
-    public $dbpass = '';
-    public $dbname = '';
+    public $dbpass = '123456';
+    public $dbname = 'framework';
     public $prefix = 'pfx_';
 }
 

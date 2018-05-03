@@ -1,1 +1,1 @@
-framework
+A lightweight PHP framework
