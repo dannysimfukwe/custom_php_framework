@@ -80,7 +80,7 @@ class Router {
      */
     public function configure(){
         if(Application::loadConfig('offline') == 1){
-            $this->_path = $this->_routes['GET']['default_offline'];
+            $this->_path = $this->_routes['GET']['offline'];
         }
     }
    
