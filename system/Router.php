@@ -125,7 +125,7 @@ class Router {
                 }
             }
         }
-        $this->_path = $this->_routes['GET']['default_404'];
+        $this->_path = $this->_routes['GET']['error404'];
     }
     
     /**

@@ -6,6 +6,7 @@
  */
 $this->get('offline', 'offline');
 $this->get('index', 'index');
+$this->get('error404', 'error404');
 
 
 
