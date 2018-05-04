@@ -15,7 +15,7 @@ class Offline extends Controller {
         $data['title'] = 'We are offline'; 
         $data['msg'] = 'Sorry, We are currently offline';
 
-        $this->load->view('offline',compact('data')); 
+        $this->load->view('app/template',array('data' => compact('data'), 'views' => 'offline')); 
     
 
     }
