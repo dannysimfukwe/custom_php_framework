@@ -15,7 +15,9 @@ class error404 extends Controller {
         $data['title'] = 'Page Not Found'; 
         $data['msg'] = 'Sorry, we could not find the page you were looking for';
 
-        $this->load->view('app/template',array('data' => compact('data'), 'views' => '404')); 
+        $this->load->view('app/template',
+                        array('data' => compact('data'), 
+                        'views' => '404')); 
     
 
     }

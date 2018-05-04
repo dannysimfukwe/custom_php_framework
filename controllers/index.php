@@ -14,7 +14,9 @@ class index extends Controller {
 	       
         $data['title'] = 'index'; 
         $data['msg'] = 'Welcome home';
-        $this->load->view('app/template',array('data' => compact('data'), 'views' => 'index')); 
+        $this->load->view('app/template',
+                        array('data' => compact('data'), 
+                        'views' => 'index')); 
     
 
     }
