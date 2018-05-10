@@ -1,12 +1,4 @@
 <?php
-define('DACCESS',1);
-require 'framework.php';
-
-$app = new Application();
-
-$app->route();
-
-$app->dispatch();
-
-$app->render();
+echo '<center><h2>Your docker container is up and running</h2></center>';
+echo phpinfo();
 ?>
