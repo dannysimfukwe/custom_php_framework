@@ -4,7 +4,7 @@
  */
 class DefaultDB {
     public $driver = 'mysql';
-    public $dbhost = 'localhost';
+    public $dbhost = '127.0.0.1';
     public $dbuser = 'root';
     public $dbpass = '12345678';
     public $dbname = 'framework';
