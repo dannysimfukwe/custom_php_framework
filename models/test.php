@@ -5,6 +5,14 @@ class test extends Model {
         parent::__construct();
     }
     
+    //assuming you have a users table
+
+    public function allUsers(){
+
+        $this->database->query('select * from users');
+        
+        return $this->database->loadObjectList();
+    }
 	
 
 }
